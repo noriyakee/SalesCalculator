@@ -24,7 +24,7 @@ public class SalesCalculatorApp extends JFrame {
         JPanel inputPanel = new JPanel();
         inputPanel.setLayout(new GridLayout(4, 2, 10, 10));
         inputPanel.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20)); // Padding
-
+        
         // Phone Inputs
         inputPanel.add(new JLabel("Phone Price:"));
         phonePriceField = new JTextField();
